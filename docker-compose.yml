@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  nginx_listener:
+    build: .
+    container_name: nginx_listener_cont
+    ports:
+      - "2375:80"
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: "65536"
+        hard: "65536"
