@@ -6,4 +6,4 @@ Nginx Request Logger Server [Docker Version]
 Run `docker-composer up --build -d`
 
 ## View Logs
-Navigate to `view-source:http://fuf.me:2375/host.access.html`
+Navigate to `view-source:http://fuf.me:1337/host.access.html`
