@@ -4,7 +4,7 @@ services:
     build: .
     container_name: nginx_listener_cont
     ports:
-      - "2375:80"
+      - "1337:80"
     ulimits:
       nproc: 65535
       nofile:
