@@ -5,6 +5,8 @@ services:
     container_name: nginx_listener_cont
     ports:
       - "1337:80"
+    volumes:
+      - ./nginx_logs:/var/log/nginx
     ulimits:
       nproc: 65535
       nofile:
